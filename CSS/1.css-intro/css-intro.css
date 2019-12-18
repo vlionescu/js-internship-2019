@@ -1,0 +1,33 @@
+/*Cascading order*/
+p {
+    color: red;
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+/*Priority order*/
+
+/*5*/
+div {
+    color: aqua !important;
+}
+/*3*/
+#id {
+    color: pink;
+}
+
+/*2*/
+.text {
+    color: green;
+}
+
+div {
+    color: purple;
+}
+
+div {
+    color: darkred !important;
+}

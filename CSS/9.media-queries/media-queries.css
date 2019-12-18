@@ -1,0 +1,9 @@
+/*TODO: override media queries*/
+
+@media (max-width: 600px) {
+    section:last-child {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 { font-size: 12px }
+}

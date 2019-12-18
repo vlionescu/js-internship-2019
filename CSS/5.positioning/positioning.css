@@ -1,0 +1,46 @@
+.fixed {
+    position: fixed;
+    left: 300px;
+    border: 2px solid pink;
+    /*z-index: 1000;*/
+}
+
+section div, .sticky, .fixed {
+    width: 100px;
+    height: 100px;
+}
+
+.static {
+    border: 5px solid steelblue;
+}
+
+.relative {
+    border: 5px solid green;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    border: 5px solid red;
+}
+
+.sticky {
+
+    border: 5px solid yellow;
+    position: sticky;
+    top: 40px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+}

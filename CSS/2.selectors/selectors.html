@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+    <h1>CSS selectors</h1>
+    <section>
+        <h2>Universal Selector</h2>
+        <p>this is a text</p>
+        <ul>
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Type Selector</h2>
+        <div>this is selected by tag/type</div>
+        <span>this is also selected by tag/type</span>
+    </section>
+    <section>
+        <h2>Class Selector</h2>
+        <div class="select">this is selected by class</div>
+    </section>
+    <section>
+        <h2>Id Selector</h2>
+        <div id="select">this is selected by id</div>
+    </section>
+    <section>
+        <h2>Attribute Selector</h2>
+        <a href="https://www.google.com" target="_blank">google</a>
+        <a href="https://www.amazon.com" target="_self">amazon</a>
+        <a href="http://www.emag.com">emag</a>
+        <a href="http://www.old.com" target="_blank">olx</a>
+    </section>
+    <section>
+        <h2>Descendant Selector</h2>
+        <article>
+            <span>this is selected by descendant</span>
+        </article>
+        <article>
+            <div>
+                <p>
+                    <span>this is selected by descendant</span>
+                </p>
+            </div>
+        </article>
+        <article>
+            <p class="descendant">this is selected by descendant</p>
+        </article>
+        <p class="descendant">this is <strong>NOT</strong> selected by descendant</p>
+        <article>
+            <a href="">link selected</a>
+            <div>
+                <a href="">link not selected</a>
+            </div>
+        </article>
+        <article></article>
+    </section>
+    <section>
+        <h2>Sibling Selector</h2>
+        <div>
+            <p id="sibling">this is a paragraph</p>
+            <span>this is adjacently selected</span>
+            <div>this is generally selected</div>
+            <span>this is not adjacently selected</span>
+        </div>
+    </section>
+    <section>
+        <h2>Pseudo-Classes Selector</h2>
+
+        <h3>First and last child selector</h3>
+        <ul id="first-last">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+        </ul>
+        <h3>Nth child</h3>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child">click here</a>
+        <ul id="nth-child">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+            <li>item7</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Pseudo-Elements Selector</h2>
+        <input type="text" id="input1" placeholder="ana are mere">
+        <input type="text" id="input2" placeholder="ana are mere">
+    </section>
+</body>
+</html>

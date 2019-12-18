@@ -1,0 +1,91 @@
+/*Universal Selectors*/
+* {
+    color: red;
+}
+
+/*Type Selectors*/
+h2 {
+    color: black;
+}
+
+div, span {
+   color: green;
+}
+
+/*Class Selectors*/
+.select {
+    color: blue;
+}
+
+/*Id Selectors*/
+#select {
+    color: pink;
+}
+
+/*Attribute Selectors*/
+a {
+    display: block;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+}
+
+[target] {
+    background-color: lightblue;
+}
+
+[target="_blank"] {
+    background-color: darkblue;
+}
+
+[href^="http:"] {
+    color: black;
+    background-color: red;
+}
+
+/*Descendant Selectors*/
+article{
+    /*TODO: this does not work*/
+    color: black;
+}
+
+article span {
+    color: cyan;
+}
+
+article .descendant {
+    background-color: yellow;
+}
+
+article > a {
+    background-color: lightblue;
+}
+
+/*Sibling Selectors*/
+#sibling + span, #sibling ~ div  {
+    background-color: pink;
+}
+
+/*Pseudo-Class Selectors*/
+li, h3 {
+    color: black;
+}
+
+#first-last li:first-child,
+#first-last li:last-child {
+    background-color: lightblue;
+}
+
+#nth-child li:nth-child(-n + 6) {
+    background-color: red;
+}
+
+#nth-child:hover {
+    background-color: red;
+}
+
+/*Pseudo-Elements Selectors*/
+#input2::placeholder {
+    color: red;
+}

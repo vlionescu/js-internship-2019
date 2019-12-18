@@ -1,0 +1,49 @@
+Day 1 - Intro to HTML
+	1. What is HTML how does the browser read it, html does not break ever 
+	2. Basic HTML document
+	3. HTML tags (div, span, img, a, p etc) 
+	4. Special tags (script, style, link, meta etc.)
+	5. block level elements, inline elements also open ended, without closing usually have no content
+	6. lists
+	7. forms
+	8. table
+	9. extras &nbsp; trim of white space
+	
+Day 2 - HTML5
+	1. New elements, semantic elements, SEO
+	2. WCAG
+	
+Day 3 - Intro to CSS
+	1. What is CSS
+	2. CSS selectors
+	3. Box Model, width, height (px, %, rem, em, ch etc.)
+	4. Visibility
+	5. Text
+	6. Colors
+	7. Transitions, transforms, animations
+	
+Day 4 - Positioning in CSS
+	1. Postioning
+	2. FlexBox
+	3. Grid
+	4. Css Variables
+	
+Day 5 - Intro to JS
+	1. What is JS
+	2. Data types, operators, comparisons
+	3. Numbers
+	4. Strings and string methods
+	5. Functions
+	6. Arrays and array methods
+	7. For While, map, filter, reduce, forEach, every, some
+	
+Day 6 - Intermediate JS
+	1. Hositing
+	2. Event Loop
+	3. Objects
+	4. this
+	
+Day 7 - Manipulating the DOM
+	1. Selecting HTML elements
+	2. Events addEventListener vs onClick, removeEventListeners
+	3. Alert, Confirm, Prompt

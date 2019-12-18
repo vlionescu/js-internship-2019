@@ -1,0 +1,29 @@
+section:last-child {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    align-items: stretch;
+    /*flex-direction: column-reverse;*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row nowrap;
+}
+
+article {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    height: 60px;
+}
+header ul {
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px;
+}

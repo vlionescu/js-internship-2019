@@ -1,0 +1,32 @@
+div {
+    border: 5px solid pink;
+}
+
+.box-model, .box-model-overflow {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+.box-model-overflow {
+    width: 200px;
+    height: 120px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.percentage {
+    width: 50%;
+}
+
+.vh-vw {
+    height: 100vh;
+}
+
+.min-width {
+    display: inline-block;
+    min-width: 20px;
+}

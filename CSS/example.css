@@ -1,0 +1,24 @@
+header {
+    background-color: var(--main-color);
+}
+
+header li a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+section article h2{
+    color: var(--main-color);
+}
+
+section article {
+    border: 2px solid var(--main-color);
+}
+
+section article img {
+    width: 200px;
+}

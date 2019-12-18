@@ -1,0 +1,20 @@
+header li {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+article h2 {
+    font-family: serif;
+}
+
+p {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+}
